@@ -34,15 +34,15 @@ body {
   }
   
   a {
-      color: #448D87;
-      /*color: #4c9d96;*/
+      color: #20284D;
+      /*color: #4c9d96; #448D87;*/
   }
   
   a:hover {
     /* color: #cb5920; */
     text-decoration: none;
-    color: #5ee0d6;
-    /* background-color: #448D87; */
+    color: #448D87;
+    /* background-color: #448D87; #5ee0d6;*/
   }
   
   hr {
