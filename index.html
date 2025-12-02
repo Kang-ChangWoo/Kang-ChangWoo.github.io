@@ -45,7 +45,7 @@
       <h5 style="padding-top:5px;">
         <a href="mailto:kangchangwoo@unist.ac.kr" title="Email"><i class="fa fa-envelope-square fa-3x"></i></a>
         <a href="https://github.com/Kang-ChangWoo" title="GitHub" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
-        <a href="https://www.linkedin.com/in/changwoo-kang-13293214a" title="LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/changwoo-kang" title="LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
         <a href="https://scholar.google.com/citations?user=XXXXXX" title="Google Scholar" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a>
       </h5>
     </div>
@@ -56,47 +56,93 @@
     <h2>About</h2>
     <hr/>
     <p>
-      I am a Ph.D. student in the <b>3D Vision & Robotics Lab</b> at UNIST, advised by <a href="https://sites.google.com/view/kyungdonjoo">Prof. Kyung-Don Joo</a>.
+      I am a Ph.D. student in the <b>3D Vision & Robotics Lab</b> at UNIST, advised by
+      <a href="https://sites.google.com/view/kyungdonjoo">Prof. Kyung-Don Joo</a>.
       My research focuses on <b>3D shape generation</b> and <b>multimodal sensor fusion</b> using event cameras.
-      I aim to design models that combine RGB-trained priors with event-based cues for <b>low-latency, robust 3D perception</b> under dynamic and low-light environments.
+      I aim to design models that combine RGB-trained priors with event-based cues for
+      <b>low-latency, robust 3D perception</b> under dynamic and low-light environments.
     </p>
   </div>
 
-  <!-- Publications -->
+  <!-- Publications (2-column: image left, text right) -->
   <div class="container">
     <h2>Publications</h2>
     <hr/>
 
-    <div style="padding-top:1rem;">
-      <img src="./media/dogrecon.png" alt="DogRecon" style="width:320px; float:right; margin-left:1rem;">
-      <h4>DogRecon: Canine Prior-Guided Animatable 3D Gaussian Dog Reconstruction</h4>
-      <p><i>International Journal of Computer Vision (IJCV), 2025</i><br>
-      <b>Gyeongsu Cho</b>, <b>Changwoo Kang</b>, Donghyeon Soon, Kyungdon Joo<br>
-      <a href="#">[paper]</a> / <a href="#">[project]</a></p>
+    <!-- DogRecon -->
+    <div class="container" style="padding-top:1.5rem; padding-bottom:1.5rem;">
+      <div class="col-lg-4" style="text-align:left; padding-top:1rem;">
+        <img src="./media/dogrecon.png" alt="DogRecon" style="width:100%; max-width:320px;">
+      </div>
+      <div class="col-lg-8" style="text-align:left;">
+        <h4>DogRecon: Canine Prior-Guided Animatable 3D Gaussian Dog Reconstruction From a Single Image</h4>
+        <p style="font-size:16px;"><i>International Journal of Computer Vision (IJCV), 2025</i></p>
+        <p>
+          <b>Gyeongsu Cho</b>, <b>Changwoo Kang</b>, Donghyeon Soon, Kyungdon Joo<br>
+          <a href="#">[paper]</a> / <a href="#">[project]</a>
+        </p>
+        <p>
+          A framework that reconstructs animatable 3D Gaussian dog models from a single RGB image by leveraging
+          canine priors and reliable sampling strategies.
+        </p>
+      </div>
     </div>
 
-    <div style="padding-top:1rem; clear:both;">
-      <img src="./media/contactgen.png" alt="ContactGen" style="width:320px; float:right; margin-left:1rem;">
-      <h4>ContactGen: Contact-Guided Interactive 3D Human Generation for Partners</h4>
-      <p><i>AAAI 2024</i><br>
-      Dongjun Gu, Jaehyeok Shim, <b>Changwoo Kang</b>, Jaehoon Jang, Kyungdon Joo<br>
-      <a href="#">[paper]</a> / <a href="#">[project]</a></p>
+    <!-- ContactGen -->
+    <div class="container" style="padding-top:1.5rem; padding-bottom:1.5rem;">
+      <div class="col-lg-4" style="text-align:left; padding-top:1rem;">
+        <img src="./media/contactgen.png" alt="ContactGen" style="width:100%; max-width:320px;">
+      </div>
+      <div class="col-lg-8" style="text-align:left;">
+        <h4>ContactGen: Contact-Guided Interactive 3D Human Generation for Partners</h4>
+        <p style="font-size:16px;"><i>AAAI 2024</i></p>
+        <p>
+          Dongjun Gu, Jaehyeok Shim, <b>Changwoo Kang</b>, Jaehoon Jang, Kyungdon Joo<br>
+          <a href="#">[paper]</a> / <a href="#">[project]</a>
+        </p>
+        <p>
+          A diffusion-based framework that generates interactive 3D human pairs, guided by contact patterns and
+          partner-aware constraints for realistic interactions.
+        </p>
+      </div>
     </div>
 
-    <div style="padding-top:1rem; clear:both;">
-      <img src="./media/sdfgen.png" alt="Diffusion SDF" style="width:320px; float:right; margin-left:1rem;">
-      <h4>Diffusion-Based Signed Distance Fields for 3D Shape Generation</h4>
-      <p><i>CVPR 2023</i><br>
-      Jaehyeok Shim, <b>Changwoo Kang</b>, Kyungdon Joo<br>
-      <a href="#">[paper]</a> / <a href="#">[project]</a></p>
+    <!-- Diffusion SDF -->
+    <div class="container" style="padding-top:1.5rem; padding-bottom:1.5rem;">
+      <div class="col-lg-4" style="text-align:left; padding-top:1rem;">
+        <img src="./media/sdfgen.png" alt="Diffusion SDF" style="width:100%; max-width:320px;">
+      </div>
+      <div class="col-lg-8" style="text-align:left;">
+        <h4>Diffusion-Based Signed Distance Fields for 3D Shape Generation</h4>
+        <p style="font-size:16px;"><i>CVPR 2023</i></p>
+        <p>
+          Jaehyeok Shim, <b>Changwoo Kang</b>, Kyungdon Joo<br>
+          <a href="#">[paper]</a> / <a href="#">[project]</a>
+        </p>
+        <p>
+          A diffusion-based generative model on signed distance fields that enables high-quality 3D shape generation
+          with strong controllability and smooth geometry.
+        </p>
+      </div>
     </div>
 
-    <div style="padding-top:1rem; clear:both;">
-      <img src="./media/humangen.png" alt="3D Human Generation" style="width:320px; float:right; margin-left:1rem;">
-      <h4>Pose-Guided 3D Human Generation in Indoor Scene</h4>
-      <p><i>AAAI 2023</i><br>
-      Minseok Kim, <b>Changwoo Kang</b>, Jeongin Park, Kyungdon Joo<br>
-      <a href="#">[paper]</a> / <a href="#">[project]</a></p>
+    <!-- 3D Human Generation -->
+    <div class="container" style="padding-top:1.5rem; padding-bottom:1.5rem;">
+      <div class="col-lg-4" style="text-align:left; padding-top:1rem;">
+        <img src="./media/humangen.png" alt="3D Human Generation" style="width:100%; max-width:320px;">
+      </div>
+      <div class="col-lg-8" style="text-align:left;">
+        <h4>Pose-Guided 3D Human Generation in Indoor Scene</h4>
+        <p style="font-size:16px;"><i>AAAI 2023</i></p>
+        <p>
+          Minseok Kim, <b>Changwoo Kang</b>, Jeongin Park, Kyungdon Joo<br>
+          <a href="#">[paper]</a> / <a href="#">[project]</a>
+        </p>
+        <p>
+          A pose-conditioned 3D human generation framework that synthesizes realistic humans in indoor environments,
+          guided by 2D poses and 3D scene context.
+        </p>
+      </div>
     </div>
   </div>
 
@@ -117,21 +163,20 @@
     <h2>Experience & Research Stay</h2>
     <hr/>
     <ul>
-      <li><b>2025.03 – 2025.06</b>: 3-month research stay in <b>Singapore</b>, working on event-driven 3D perception and collaborative multimodal AI research.</li>
+      <li>
+        <b>2025.03 – 2025.06</b>: 3-month research stay in <b>Singapore</b>, working on event-driven 3D perception
+        and multimodal fusion for robust sensing under challenging conditions.
+      </li>
     </ul>
   </div>
 
-  <!-- Footer + ClustrMaps -->
+  <!-- Footer + Visitor Globe -->
   <div style="text-align:center; padding:2rem 0;">
     <p>&copy; 2025 Changwoo Kang — Template adapted from Antoine Guédon and Gyeongsu Cho.</p>
-    <!-- ClustrMaps -->
-    <div id="clustrmaps-widget">
-      <script type='text/javascript' id='clustrmaps'
-        src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=Z-7P-c__jyKWkEFWv6kpimyIUKQSYn8vWo0XVWtk0gE'>
-      </script>
-    </div>
+    <!-- MapMyVisitors Globe Widget -->
+    <script type="text/javascript" id="mmvst_globe"
+      src="//mapmyvisitors.com/globe.js?d=LwSJleavjq1Np6FL9U4EGBh4TU1jIwrOytxbXSBRQAU"></script>
   </div>
 
 </body>
 </html>
-
