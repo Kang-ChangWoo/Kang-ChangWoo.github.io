@@ -45,12 +45,18 @@ body {
     /* background-color: #448D87; #5ee0d6;*/
   }
   
-  hr {
+  /*hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
     border-top: 1px solid #20284D !important;
-  }
+  }*/
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 0;
+  border-top: 5px solid red !important;
+}
   
   p {
     text-align: justify;
@@ -128,6 +134,7 @@ body {
     position: relative;
   }
   
+
 
 
 
