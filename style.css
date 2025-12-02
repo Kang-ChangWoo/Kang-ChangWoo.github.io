@@ -41,7 +41,7 @@ body {
   a:hover {
     /* color: #cb5920; */
     text-decoration: none;
-    color: #e0e0e0;
+    color: #e0e0e0 !important;
     /* background-color: #448D87; #5ee0d6;*/
   }
   
@@ -49,7 +49,7 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 1px solid #20284D;
+    border-top: 1px solid #20284D !important;
   }
   
   p {
@@ -128,5 +128,6 @@ body {
     position: relative;
   }
   
+
 
 
