@@ -13,7 +13,7 @@
   <meta property="og:description" content="3D Vision, Event-based Perception, and Multimodal AI"/>
   <meta property="og:image" content="https://kang-changwoo.github.io/media/profile.jpg">
 
-  <!-- Styles & Fonts -->
+  <!-- CSS & Fonts -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -26,9 +26,10 @@
 </head>
 
 <body>
+  <!-- Header -->
   <div class="container" style="padding-top:2rem;">
     <div class="col-lg-6" style="text-align:left;">
-      <h1 style="font-size: 65px;">Changwoo Kang</h1>
+      <h1 style="font-size:65px;">Changwoo Kang</h1>
       <h3>Ph.D. Student, 3D Vision & Robotics Lab</h3>
       <a href="https://ai.unist.ac.kr/" style="font-weight:400;">Artificial Intelligence Graduate School</a><br>
       <a href="https://www.unist.ac.kr/">Ulsan National Institute of Science and Technology (UNIST)</a><br><br>
@@ -40,8 +41,8 @@
     </div>
 
     <div class="col-lg-6" style="text-align:center; padding-top:2rem;">
-      <img src="./media/profile.jpg" alt="Profile picture" style="height: 350px;"><br>
-      <h5 style="padding-top: 5px;">
+      <img src="./media/profile.jpg" alt="Profile picture" style="height:350px;"><br>
+      <h5 style="padding-top:5px;">
         <a href="mailto:kangchangwoo@unist.ac.kr" title="Email"><i class="fa fa-envelope-square fa-3x"></i></a>
         <a href="https://github.com/Kang-ChangWoo" title="GitHub" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
         <a href="https://www.linkedin.com/in/changwoo-kang" title="LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
@@ -50,66 +51,86 @@
     </div>
   </div>
 
+  <!-- About -->
   <div class="container">
     <h2>About</h2>
     <hr/>
     <p>
       I am a Ph.D. student in the <b>3D Vision & Robotics Lab</b> at UNIST, advised by <a href="https://sites.google.com/view/kyungdonjoo">Prof. Kyung-Don Joo</a>.
-      My research focuses on <b>3D shape generation and multimodal fusion</b> of visual signals from different sensors, especially event cameras.
-      I aim to design models that integrate RGB-trained priors for <b>low-latency, high-precision 3D perception</b> under challenging conditions such as motion blur or low light.
+      My research focuses on <b>3D shape generation</b> and <b>multimodal sensor fusion</b> using event cameras.
+      I aim to design models that combine RGB-trained priors with event-based cues for <b>low-latency, robust 3D perception</b> under dynamic and low-light environments.
     </p>
   </div>
 
+  <!-- Publications -->
   <div class="container">
-    <h2>Research</h2>
+    <h2>Publications</h2>
     <hr/>
 
     <div style="padding-top:1rem;">
+      <img src="./media/dogrecon.png" alt="DogRecon" style="width:320px; float:right; margin-left:1rem;">
       <h4>DogRecon: Canine Prior-Guided Animatable 3D Gaussian Dog Reconstruction</h4>
       <p><i>International Journal of Computer Vision (IJCV), 2025</i><br>
       <b>Gyeongsu Cho</b>, <b>Changwoo Kang</b>, Donghyeon Soon, Kyungdon Joo<br>
-      <a href="#">[paper]</a> / <a href="#">[project]</a>
-      </p>
+      <a href="#">[paper]</a> / <a href="#">[project]</a></p>
     </div>
 
-    <div style="padding-top:1rem;">
+    <div style="padding-top:1rem; clear:both;">
+      <img src="./media/contactgen.png" alt="ContactGen" style="width:320px; float:right; margin-left:1rem;">
       <h4>ContactGen: Contact-Guided Interactive 3D Human Generation for Partners</h4>
       <p><i>AAAI 2024</i><br>
       Dongjun Gu, Jaehyeok Shim, <b>Changwoo Kang</b>, Jaehoon Jang, Kyungdon Joo<br>
-      <a href="#">[paper]</a> / <a href="#">[project]</a>
-      </p>
+      <a href="#">[paper]</a> / <a href="#">[project]</a></p>
     </div>
 
-    <div style="padding-top:1rem;">
+    <div style="padding-top:1rem; clear:both;">
+      <img src="./media/sdfgen.png" alt="Diffusion SDF" style="width:320px; float:right; margin-left:1rem;">
       <h4>Diffusion-Based Signed Distance Fields for 3D Shape Generation</h4>
       <p><i>CVPR 2023</i><br>
       Jaehyeok Shim, <b>Changwoo Kang</b>, Kyungdon Joo<br>
-      <a href="#">[paper]</a> / <a href="#">[project]</a>
-      </p>
+      <a href="#">[paper]</a> / <a href="#">[project]</a></p>
     </div>
 
-    <div style="padding-top:1rem;">
+    <div style="padding-top:1rem; clear:both;">
+      <img src="./media/humangen.png" alt="3D Human Generation" style="width:320px; float:right; margin-left:1rem;">
       <h4>Pose-Guided 3D Human Generation in Indoor Scene</h4>
       <p><i>AAAI 2023</i><br>
       Minseok Kim, <b>Changwoo Kang</b>, Jeongin Park, Kyungdon Joo<br>
-      <a href="#">[paper]</a> / <a href="#">[project]</a>
-      </p>
+      <a href="#">[paper]</a> / <a href="#">[project]</a></p>
     </div>
   </div>
 
+  <!-- Projects -->
   <div class="container">
     <h2>Projects</h2>
     <hr/>
     <ul>
-      <li><b>Event Camera-based 3D Spatial Perception Sensor Pack</b> (NRF, 2024–2029): Developing a 3D perception sensor suite using event cameras for heterogeneous agents.</li>
-      <li><b>Common Sense AI for Fact-based Reasoning</b> (IITP, 2022–2026): Designing models that can reason new facts grounded in everyday knowledge.</li>
-      <li><b>Stereo-based Vibration Analysis System</b> (RIST, 2022–2023): Built a stereo depth-based vibration sensing system for industrial inspection.</li>
-      <li><b>Virtual Tactile Feedback Recommendation</b> (UNIST, 2022–2023): Built personalized tactile feedback system adapting to individual hand pressure responses.</li>
+      <li><b>Event Camera-based 3D Spatial Perception Sensor Pack</b> (NRF, 2024–2029)</li>
+      <li><b>Common Sense AI for Fact-based Reasoning</b> (IITP, 2022–2026)</li>
+      <li><b>Stereo-based Vibration Analysis System</b> (RIST, 2022–2023)</li>
+      <li><b>Virtual Tactile Feedback Recommendation</b> (UNIST, 2022–2023)</li>
     </ul>
   </div>
 
-  <p style="text-align:center; padding-top:2rem; font-size:14px;">
-    © 2025 Changwoo Kang — Template adapted from Antoine Guédon and Gyeongsu Cho.
-  </p>
+  <!-- Experience -->
+  <div class="container">
+    <h2>Experience & Research Stay</h2>
+    <hr/>
+    <ul>
+      <li><b>2025.03 – 2025.06</b>: 3-month research stay in <b>Singapore</b>, working on event-driven 3D perception and collaborative multimodal AI research.</li>
+    </ul>
+  </div>
+
+  <!-- Footer + ClustrMaps -->
+  <div style="text-align:center; padding:2rem 0;">
+    <p>&copy; 2025 Changwoo Kang — Template adapted from Antoine Guédon and Gyeongsu Cho.</p>
+    <!-- ClustrMaps -->
+    <div id="clustrmaps-widget">
+      <script type='text/javascript' id='clustrmaps'
+        src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=Z-7P-c__jyKWkEFWv6kpimyIUKQSYn8vWo0XVWtk0gE'>
+      </script>
+    </div>
+  </div>
+
 </body>
 </html>
