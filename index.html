@@ -22,54 +22,7 @@
   <script src="https://kit.fontawesome.com/bacac70704.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="shortcut icon" href="resrc/icons/profile_icon.jpg">
-  
-  <!-- Custom Style -->
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      background-color: #ffffff;
-      color: #222;
-      line-height: 1.6;
-    }
-
-    h1, h2, h3, h4 {
-      color: #002b80;
-      font-weight: 600;
-    }
-
-    hr {
-      border: 1.5px solid #002b80;
-      width: 100%;
-      margin-top: 10px;
-      margin-bottom: 25px;
-    }
-
-    a {
-      color: #002b80;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: #003399;
-      text-decoration: underline;
-    }
-
-    .container {
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-
-    img {
-      border-radius: 6px;
-    }
-
-    .footer {
-      text-align: center;
-      padding: 2rem 0;
-      color: #444;
-      font-size: 14px;
-    }
-  </style>
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -109,13 +62,6 @@
       I aim to design models that combine RGB-trained priors with event-based cues for
       <b>low-latency, robust 3D perception</b> under dynamic and low-light environments.
     </p>
-
-    <!-- 🌍 MapMyVisitors Globe Widget -->
-    <div style="text-align:center; padding:2rem 0;">
-      <h4>🌍 Visitors Around the World</h4>
-      <script type="text/javascript" id="mmvst_globe"
-        src="https://mapmyvisitors.com/globe.js?d=LwSJleavjq1Np6FL9U4EGBh4TU1jIwrOytxbXSBRQAU"></script>
-    </div>
   </div>
 
   <!-- Publications -->
@@ -123,51 +69,63 @@
     <h2>Publications</h2>
     <hr/>
 
+    <!-- DogRecon -->
     <div class="container" style="padding-top:1.5rem; padding-bottom:1.5rem;">
       <div class="col-lg-4" style="text-align:left; padding-top:1rem;">
         <img src="./media/dogrecon.png" alt="DogRecon" style="width:100%; max-width:320px;">
       </div>
       <div class="col-lg-8" style="text-align:left;">
         <h4>DogRecon: Canine Prior-Guided Animatable 3D Gaussian Dog Reconstruction From a Single Image</h4>
-        <p><i>International Journal of Computer Vision (IJCV), 2025</i></p>
-        <p><b>Gyeongsu Cho</b>, <b>Changwoo Kang</b>, Donghyeon Soon, Kyungdon Joo<br>
-        <a href="#">[paper]</a> / <a href="#">[project]</a></p>
+        <p style="font-size:16px;"><i>International Journal of Computer Vision (IJCV), 2025</i></p>
+        <p>
+          <b>Gyeongsu Cho</b>, <b>Changwoo Kang</b>, Donghyeon Soon, Kyungdon Joo<br>
+          <a href="#">[paper]</a> / <a href="#">[project]</a>
+        </p>
       </div>
     </div>
 
+    <!-- ContactGen -->
     <div class="container" style="padding-top:1.5rem; padding-bottom:1.5rem;">
       <div class="col-lg-4" style="text-align:left; padding-top:1rem;">
         <img src="./media/contactgen.png" alt="ContactGen" style="width:100%; max-width:320px;">
       </div>
       <div class="col-lg-8" style="text-align:left;">
         <h4>ContactGen: Contact-Guided Interactive 3D Human Generation for Partners</h4>
-        <p><i>AAAI 2024</i></p>
-        <p>Dongjun Gu, Jaehyeok Shim, <b>Changwoo Kang</b>, Jaehoon Jang, Kyungdon Joo<br>
-        <a href="#">[paper]</a> / <a href="#">[project]</a></p>
+        <p style="font-size:16px;"><i>AAAI 2024</i></p>
+        <p>
+          Dongjun Gu, Jaehyeok Shim, <b>Changwoo Kang</b>, Jaehoon Jang, Kyungdon Joo<br>
+          <a href="#">[paper]</a> / <a href="#">[project]</a>
+        </p>
       </div>
     </div>
 
+    <!-- Diffusion SDF -->
     <div class="container" style="padding-top:1.5rem; padding-bottom:1.5rem;">
       <div class="col-lg-4" style="text-align:left; padding-top:1rem;">
         <img src="./media/sdfgen.png" alt="Diffusion SDF" style="width:100%; max-width:320px;">
       </div>
       <div class="col-lg-8" style="text-align:left;">
         <h4>Diffusion-Based Signed Distance Fields for 3D Shape Generation</h4>
-        <p><i>CVPR 2023</i></p>
-        <p>Jaehyeok Shim, <b>Changwoo Kang</b>, Kyungdon Joo<br>
-        <a href="#">[paper]</a> / <a href="#">[project]</a></p>
+        <p style="font-size:16px;"><i>CVPR 2023</i></p>
+        <p>
+          Jaehyeok Shim, <b>Changwoo Kang</b>, Kyungdon Joo<br>
+          <a href="#">[paper]</a> / <a href="#">[project]</a>
+        </p>
       </div>
     </div>
 
+    <!-- 3D Human Generation -->
     <div class="container" style="padding-top:1.5rem; padding-bottom:1.5rem;">
       <div class="col-lg-4" style="text-align:left; padding-top:1rem;">
         <img src="./media/humangen.png" alt="3D Human Generation" style="width:100%; max-width:320px;">
       </div>
       <div class="col-lg-8" style="text-align:left;">
         <h4>Pose-Guided 3D Human Generation in Indoor Scene</h4>
-        <p><i>AAAI 2023</i></p>
-        <p>Minseok Kim, <b>Changwoo Kang</b>, Jeongin Park, Kyungdon Joo<br>
-        <a href="#">[paper]</a> / <a href="#">[project]</a></p>
+        <p style="font-size:16px;"><i>AAAI 2023</i></p>
+        <p>
+          Minseok Kim, <b>Changwoo Kang</b>, Jeongin Park, Kyungdon Joo<br>
+          <a href="#">[paper]</a> / <a href="#">[project]</a>
+        </p>
       </div>
     </div>
   </div>
@@ -196,9 +154,14 @@
     </ul>
   </div>
 
-  <!-- Footer -->
-  <div class="footer">
-    &copy; 2025 Changwoo Kang — Template adapted from Antoine Guédon and Gyeongsu Cho.
+  <!-- Footer + Visitor Map -->
+  <div style="text-align:center; padding:2rem 0;">
+    <p>&copy; 2025 Changwoo Kang — Template adapted from Antoine Guédon and Gyeongsu Cho.</p>
+
+    <!-- MapMyVisitors 2D World Map Widget -->
+    <script type="text/javascript" id="mapmyvisitors"
+      src="https://mapmyvisitors.com/map.js?d=eHMihOvihYem6qADo3hV5cSna4e6v2QJI1NeGEJAExQ&cl=ffffff&w=a"></script>
   </div>
+
 </body>
 </html>
