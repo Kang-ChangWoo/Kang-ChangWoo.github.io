@@ -157,7 +157,7 @@ body {
   max-width: 950px;   /* 여기서 footer 가로폭 제한 */
   margin: 0 auto;     /* 가운데 정렬 */
 }
-/* === Publication Section === */
+/* === Publications Section === */
 .pub-text h4 {
   color: #20284d;
   font-weight: 600;
@@ -185,9 +185,6 @@ body {
 .pub-text a:hover {
   text-decoration: underline;
 }
-
-
-
 
 
 
