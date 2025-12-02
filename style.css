@@ -146,7 +146,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 950px;   /* 여기 숫자 마음대로 조절: 800, 900, 960 등 */
+  max-width: 1000px;   /* 여기 숫자 마음대로 조절: 800, 900, 960 등 */
   margin: 0 auto;     /* 가운데 정렬 */
 }
 
@@ -154,9 +154,10 @@ body {
   text-align: center;
   padding: 2rem 0;
 
-  max-width: 900px;   /* 여기서 footer 가로폭 제한 */
+  max-width: 1000px;   /* 여기서 footer 가로폭 제한 */
   margin: 0 auto;     /* 가운데 정렬 */
 }
+
 
 
 
