@@ -157,6 +157,54 @@ body {
   max-width: 950px;   /* 여기서 footer 가로폭 제한 */
   margin: 0 auto;     /* 가운데 정렬 */
 }
+/* === Publication Section === */
+.pub-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 2.5rem;
+}
+
+.pub-row img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.pub-text {
+  flex: 1;
+  text-align: left;
+}
+
+.pub-text h4 {
+  color: #20284d;           /* 제목 강조 색상 */
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.pub-text p {
+  margin: 4px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.pub-text .venue {
+  color: #20284d;           /* 학회/저널명도 같은 강조색 */
+  font-weight: 500;
+}
+
+.pub-text a {
+  color: #20284d;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.pub-text a:hover {
+  text-decoration: underline;
+}
+
 
 
 
