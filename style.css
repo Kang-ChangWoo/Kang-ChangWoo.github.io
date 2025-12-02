@@ -144,6 +144,12 @@ body {
   box-shadow: 0 1px 4px rgba(0,0,0,0.06);
 }
 
+.container {
+  width: 100%;
+  max-width: 900px;   /* 여기 숫자 마음대로 조절: 800, 900, 960 등 */
+  margin: 0 auto;     /* 가운데 정렬 */
+}
+
 
 
 
