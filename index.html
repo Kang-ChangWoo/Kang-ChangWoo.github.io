@@ -121,8 +121,7 @@
     <p class="venue">AAAI Conference on Artificial Intelligence (AAAI), 2024</p>
     <p>Dongjun Gu, Jaehyeok Shim, Jaehoon Jang, <b>Changwoo Kang</b>, Kyungdon Joo</p>
     <p>
-      We propose an interactive human generation system that respects physical contact
-      constraints between generated agents, enabling realistic partner-to-partner interactions in 3D scenes.
+      We propose a novel method of generating interactive 3D humans for a given partner human based on a guided diffusion framework (ContactGen in short). Specifically, we newly present a contact prediction module that adaptively estimates potential contact regions between two input humans according to the interaction label. Using the estimated potential contact regions as complementary guidances, we dynamically enforce ContactGen to generate interactive 3D humans for a given partner human within a guided diffusion model. 
     </p>
     <p>
       <a href="https://changwoo.me/ContactGen" target="_blank"><i class="fa fa-link"></i> Project Page</a> |
@@ -142,9 +141,7 @@
     <h4>Diffusion-Based Signed Distance Fields for 3D Shape Generation</h4>
     <p class="venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023</p>
     <p>Jaehyeok Shim, <b>Changwoo Kang</b>, Kyungdon Joo</p>
-    <p>
-      This paper introduces a diffusion-based approach for implicit 3D shape generation, modeling
-      Signed Distance Fields with score-based learning for controllable and diverse geometry synthesis.
+    <p>Our framework generates high-resolution 3D shapes while alleviating memory issues by separating the generative process into two-stage: generation and super-resolution.  In the first stage, a diffusion-based generative model generates a low-resolution SDF of 3D shapes. Using the estimated low-resolution SDF as a condition, patch-based diffusion model performs super-resolution in the second stage. the later diffusion model disturbs high-resolution noise to synthesis complete shape.
     </p>
     <p>
       <a href="https://changwoo.me/DiffusionSDF" target="_blank"><i class="fa fa-link"></i> Project Page</a> |
@@ -165,8 +162,7 @@
     <p class="venue">AAAI Conference on Artificial Intelligence (AAAI), 2023</p>
     <p>Minseok Kim, <b>Changwoo Kang</b>, Jeongin Park, Kyungdon Joo</p>
     <p>
-      This paper presents a pose-guided human synthesis framework that generates physically plausible 3D humans
-      within indoor environments, leveraging spatial constraints and semantic priors for realistic composition.
+      We present a new 3D human generation framework that considers geometric alignment on potential contact areas between 3D human avatars and their surroundings. In addition, we introduce a compact yet effective human pose classifier that classifies the human pose and provides potential contact areas of the 3D human avatar. It allows us to adaptively use geometric alignment loss according to the classified human pose.
     </p>
     <p>
       <a href="https://changwoo.me/PoseHumanGen" target="_blank"><i class="fa fa-link"></i> Project Page</a> |
@@ -260,6 +256,7 @@
   
 </body>
 </html>
+
 
 
 
