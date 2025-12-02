@@ -158,7 +158,6 @@ body {
   margin: 0 auto;     /* 가운데 정렬 */
 }
 /* === Publication Section === */
-/* === Publications Section === */
 .pub-text h4 {
   color: #20284d;
   font-weight: 600;
@@ -173,7 +172,7 @@ body {
 }
 
 .pub-text .venue {
-  color: #20284d;   /* 학회 / 저널명 강조색 */
+  color: #20284d;
   font-weight: 500;
 }
 
@@ -186,7 +185,6 @@ body {
 .pub-text a:hover {
   text-decoration: underline;
 }
-
 
 
 
